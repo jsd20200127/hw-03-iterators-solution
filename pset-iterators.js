@@ -236,7 +236,7 @@ Example (not the actual answer):
 { "James":  5, "George": 3, "Barack": 1, ....}
 
 ************/
-console.log('Problem 8:')
+console.log('Problem 8 (Bonus):')
 
 // Add your code below this line
 
@@ -246,8 +246,8 @@ const firstNames = presidents.map((president) => {
   return firstName
 })
 
-// use .reduce() to create an object that keeps track of the name
-// counts
+// use .reduce() to create an object that
+// keeps track of the name counts
 const firstNameCount = firstNames.reduce((nameCount, name) => {
   if (nameCount[name] === undefined) {
     nameCount[name] = 1
